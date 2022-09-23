@@ -1,0 +1,24 @@
+/*Nos exercícios: - Pontos turistico ,Tabela do brasileirão e o forms da soul cod
+editar com  o que aprendemos com CSS*/
+
+.titulo {
+    background-color: rgb(15, 250, 15);
+    border-color: yellow;
+    color: white;
+}
+
+.classificadosLibertadores{
+    color: rgb(86, 221, 86);
+}
+
+.classificadosSulAmericana{
+    color: rgb(243, 208, 7);
+}
+
+.neutro{
+    color: black;
+}
+
+.rebaixamento{
+    color: red;
+}

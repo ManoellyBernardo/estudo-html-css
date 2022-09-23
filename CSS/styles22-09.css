@@ -1,0 +1,44 @@
+h3{
+    background-color: red;
+}
+
+.box1{
+    background-color: coral;
+    padding: 16px; /*espaçamento interno*/
+    margin: 8px; /*espaçamento externo*/
+}
+.box2{
+    background-color: green;
+    /*T R B L -> Sentido horario*/
+    padding: 8px 20px 4px 10px;
+    margin: 8px 10px 20px 40px;
+}
+.box3{
+    background-color: brown;
+    border: 2px dotted yellow; /*ordem -> espessura estilo cor*/
+    border-radius: 8px;
+    padding: 8px;
+    margin: 10px;
+}
+.box4{
+    background-color: seagreen;
+    width: 400px;
+    padding: 20px;
+    border: 5px solid red;
+}
+
+*{ /* * -> asteristico quer dizer todos os elementos*/
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url("https://soulcodeacademy.org/assets/images/logo/light-logo.png");
+    background-repeat: no-repeat; /*pode-se usar y e x, y para vertical e x na horizantal*/
+    /*background-size: contain;*/
+    /* cover = zoom*/
+    /* contain = estica a imagem*/
+    background-position: right bottom;
+    background-attachment: fixed; /*Faz a imagem permanecer fixa*/
+}

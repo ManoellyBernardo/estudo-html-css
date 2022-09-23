@@ -1,0 +1,96 @@
+*{/* Garante que os elementos respeitem as dimensões quando possuem padding e border*/
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.my-button{
+    background-color: #4caf50;
+    border: none;
+    color:white;
+    padding: 16px 24px; /*vertical e  horizantal*/
+    font-size: 16px;
+    margin: 6px 4px;
+    cursor: pointer; /*icone de clique*/
+    border-radius: 6px;
+}
+
+.my-button:hover{
+    background-color: cadetblue;
+}
+
+.my-button-blue{
+    background-color: cornflowerblue;
+}
+
+.my-table{
+    width: 500px;
+    border-collapse: collapse; /* para usar o border radius não se pode ter collapse*/
+    margin: auto; /*a propriedade auto só funciona com itens com largura*/
+}
+
+.my-table td, .my-table th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.my-table th{
+    background-color: cornflowerblue;
+    padding: 12px 0;
+    color: white;
+}
+
+.my-table tr:hover{
+background-color: #ddd;
+} 
+
+/*even = par, odd = ímpar*/
+/*
+Aplica estilo aos tr de número par
+*/
+.my-table tr:nth-child(even){
+background-color: #f2f2f2;
+} 
+
+.my-table td{
+    text-align: center;
+    height: 50px;
+}
+
+/*Customizar Formulário*/
+
+.my-form{
+    border-radius: 6px;
+    background-color: #f2f2f2;
+    padding: 20px 16px;
+    width: 300px;
+    margin:auto;
+}
+
+.my-form input{
+    width: 100%;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    margin-top: 3px;
+}
+
+/*::placeholder{ /*Como mudar a cor do placeholder
+    color: cornflowerblue;
+}*/
+
+.toda-largura{
+    width: 100%;
+    margin: 6px 0;
+}
+
+.my-form-group{
+    margin-bottom: 6px;
+}
+
+h3{
+    text-align: center;
+}
