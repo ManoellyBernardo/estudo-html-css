@@ -3,8 +3,18 @@ h1{
     color: whitesmoke;
 }
 
+body{
+    padding-bottom: 10px;
+}
+
+.div-introdutoria{
+    width: 400px;
+    height: 100px;
+}
+
 div{
     width: 400px;
+    height: 500px;
     text-align: justify;
     margin: auto;
     border-radius: 10px;
@@ -15,4 +25,15 @@ div{
 
 h3{
     text-align: center;
+}
+
+
+.flex-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.divcards{
+    margin-right: 5px;
 }
